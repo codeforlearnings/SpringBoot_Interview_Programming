@@ -22,14 +22,13 @@ public class HelloController {
 	//http://localhost:8080/h2/Raj/30
 	
 // 3. Rest WebServices input RequestBody
-	@PostMapping("/cust")
-	public Customer save(@RequestBody Customer cust) {
-		System.out.println(cust.getCustomerId());
-		System.out.println(cust.getFirstName());
-		System.out.println(cust.getLastName());
-		System.out.println(cust.getCustomerAddress());		
-		return cust;		
-	}
+	/*
+	 * @PostMapping("/cust") public Customer save(@RequestBody Customer cust) {
+	 * System.out.println(cust.getCustomerId());
+	 * System.out.println(cust.getFirstName());
+	 * System.out.println(cust.getLastName());
+	 * System.out.println(cust.getCustomerAddress()); return cust; }
+	 */
 	//http://localhost:8080/cust
 	
 // 4. Rest WebServices input RequestParam
